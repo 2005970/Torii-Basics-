@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int km;
+    float ms;
+    scanf("%d", &km);
+    ms=km*(5.0/18.0);
+    printf("%.2f",ms);
+    return 0;
+}
