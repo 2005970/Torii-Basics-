@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int Rs=(n*2000)/500;
+    printf("%d",Rs);
+}
